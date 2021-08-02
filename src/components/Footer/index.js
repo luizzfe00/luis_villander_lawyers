@@ -20,6 +20,7 @@ const Footer = () => {
             <FooterLinkItem>
               <FooterLinkTitle>Contato(s)</FooterLinkTitle>
               <Item>(83) 98719-5469</Item>
+              <Item>(83) 99603-4762</Item>
               <Item>luisvillander@gmail.com</Item>
             </FooterLinkItem>
           </FooterLinkWrapper>

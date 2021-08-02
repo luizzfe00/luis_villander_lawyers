@@ -102,6 +102,6 @@ export const LogoContainer = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 260px;
+  width: 460px;
   height: 80px;
 `;

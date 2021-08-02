@@ -14,6 +14,11 @@ export const Container = styled.div`
 
 export const ImageContainer = styled.div`
   width: 46%;
+  @media only screen and (max-width: 1200px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const Background = styled.div`
@@ -33,6 +38,10 @@ export const TextContainer = styled.div`
 
 export const Name = styled.h2`
   line-height: 4rem;
+  @media only screen and (max-width: 1200px) {
+    text-align: center;
+    margin-top: 2rem;
+  }
 `;
 
 export const Content = styled.p`
@@ -44,4 +53,8 @@ export const ContentContainer = styled.div`
   margin-top: 4rem;
   display: flex;
   width: 100%;
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
