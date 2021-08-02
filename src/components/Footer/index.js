@@ -29,9 +29,8 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinkWrapper>
             <FooterLinkItem>
-              <FooterLink to="about">Quem Somos</FooterLink>
-              <FooterLink to="partners">Sócios</FooterLink>
-              <FooterLink to="areas">Áreas de Atuação</FooterLink>
+              <FooterLink to="about" smooth={true}>Quem Somos</FooterLink>
+              <FooterLink to="partners" smooth={true}>Associados</FooterLink>
             </FooterLinkItem>
           </FooterLinkWrapper>
         </FooterLinksContainer>
