@@ -1,0 +1,22 @@
+.rec-dot_active {
+  box-shadow: 0 0 1px 3px rgba(128, 128, 128, 1) !important;
+  background-color: rgba(74, 74, 74, 0.5) !important;
+}
+
+.rec-dot_active:hover {
+  box-shadow: 0 0 1px 3px rgba(128, 128, 128, 1) !important;
+  background-color: rgba(74, 74, 74, 0.5) !important;
+}
+
+.rec-dot_active:focus {
+  box-shadow: 0 0 1px 3px rgba(128, 128, 128, 1) !important;
+  background-color: rgba(74, 74, 74, 0.5) !important;
+}
+
+.rec.rec-arrow:hover {
+  background-color: rgba(74, 74, 74, 0.5) !important;
+}
+
+.rec.rec-arrow:focus {
+  background-color: rgba(74, 74, 74, 0.5) !important;
+}
