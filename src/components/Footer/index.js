@@ -21,7 +21,18 @@ const Footer = () => {
               <FooterLinkTitle>Contato(s)</FooterLinkTitle>
               <Item>(83) 98719-5469</Item>
               <Item>(83) 99603-4762</Item>
-              <Item>luisvillander@gmail.com</Item>
+              <Item href="mailto:luisvillander@gmail.com" target="_blank">luisvillander@gmail.com</Item>
+            </FooterLinkItem>
+          </FooterLinkWrapper>
+        </FooterLinksContainer>
+        <FooterLinksContainer>
+          <FooterLinkWrapper>
+            <FooterLinkItem>
+              <FooterLinkTitle>Endereço</FooterLinkTitle>
+              <Item> R. Vice-prefeito Antônio de Carvalho Sousa - Estacao Velha, 450, Campina Grande - PB</Item>
+              <Item> Centro juridico Ronaldo Cunha Lima - Sala 1513- 15º andar.</Item>
+              <Item> Quase em frente ao fórum</Item>
+              <Item> Atendimento todas as tardes a partir de 14:30</Item>
             </FooterLinkItem>
           </FooterLinkWrapper>
         </FooterLinksContainer>

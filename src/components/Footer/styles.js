@@ -10,10 +10,11 @@ export const FooterContainer = styled.footer`
 export const FooterWrap = styled.div`
   padding: 48px 24px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   max-width: 1100px;
+  align-items: flex-start;
 `;
 
 export const FooterLinksContainer = styled.div`
@@ -39,7 +40,7 @@ export const FooterLinkItem = styled.div`
   align-items: flex-start;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  max-width: 300px;
   box-sizing: border-box;
   color: #FFF;
 
@@ -68,7 +69,7 @@ export const FooterLink = styled(Link)`
   }
 `;
 
-export const Item = styled.p`
+export const Item = styled.a`
   color: #FFF;
   text-decoration: none;
   margin-bottom: 0.5rem;
